@@ -42,4 +42,7 @@ export class NameRegistryState {
     this.owner = new PublicKey(obj.owner);
     this.class = new PublicKey(obj.class);
   }
-}
+} 
+
+## Resolving SOL domains (SOL alan adlarını çözme)
+.SOL alan adları, publicKey'lere dönüşen benzersiz, kullanıcı dostu alan adlarıdır. Birçok cüzdan, bunları token veya SOL göndermek için başka bir seçenek olarak kullanır. .SOL alan adlarını aşağıdakilerle publicKey'lerine dönüştürebilirsiniz:

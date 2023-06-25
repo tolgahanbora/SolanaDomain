@@ -42,7 +42,7 @@ export class NameRegistryState {
     this.owner = new PublicKey(obj.owner);
     this.class = new PublicKey(obj.class);
   }
-} 
+} ```
 
 
 # Resolving SOL domains (SOL alan adlarını çözme)
